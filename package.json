@@ -7,7 +7,8 @@
     "prestart": "npm run build",
     "start": "node dist/server.js",
     "pretest": "npm run lint",
-    "test": "jest"
+    "test": "jest",
+    "codecov-upload": "node ./node_modules/.bin/codecov"
   },
   "author": "Samuel Ko",
   "license": "MIT",
@@ -32,6 +33,7 @@
     "@types/node": "^16.11.12",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
+    "codecov": "^3.8.3",
     "eslint": "^8.4.1",
     "jest": "^27.4.3",
     "mongodb-memory-server": "^8.0.4",
