@@ -1,0 +1,1 @@
+export { RecipeController } from './recipe'

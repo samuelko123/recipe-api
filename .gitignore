@@ -1,0 +1,18 @@
+# Environment variable files
+.env
+
+# Dependency directories
+node_modules/
+
+# Build directories
+build/
+dist/
+
+# Coverage directories
+coverage/
+
+# Log directories
+logs/
+
+# npm packages information
+package-lock.json

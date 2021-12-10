@@ -1,0 +1,1 @@
+export { RecipeModel } from './recipe'
