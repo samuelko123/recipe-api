@@ -4,7 +4,6 @@
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "lint": "eslint . --ext ts --fix",
-    "prestart": "npm run build",
     "start": "node dist/server.js",
     "pretest": "npm run lint",
     "test": "jest",
