@@ -22,7 +22,7 @@ class Server {
             app.route()
             app.start(env.PORT)
         } catch (err) {
-            Logger.error(err);
+            Logger.error(err)
         }
     }
 }
